@@ -3,11 +3,17 @@ import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "../Header/Header.css";
+import first from './logo.png';
 function CollapsibleExample() {
         return (
           <Navbar collapseOnSelect expand="lg" className="color-nav">
             <Container>
               <Navbar.Brand className="link">
+                    <img
+                      className="icon"
+                      src={first}
+                      alt="First slide"
+                    />
                    Vocal Buddy
               </Navbar.Brand>
               <Navbar.Toggle aria-controls="responsive-navbar-nav" />
