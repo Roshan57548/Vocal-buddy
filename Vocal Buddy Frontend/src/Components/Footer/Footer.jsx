@@ -2,7 +2,7 @@ import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./Footer.css";
 import first from './logo.png';
-// import { Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 const Footer = () => {
 
   return (
@@ -45,24 +45,24 @@ const Footer = () => {
                 <h6 className="text-uppercase fw-bold">Useful links</h6>
                 <hr className="mb-4 mt-0 d-inline-block mx-auto stylethird" />
                 <p>
-                    {/* <Link to="/" className="links"> */}
-                    Home
-                    {/* </Link> */}
+                    <Link to="/" className="footer-link">
+                      Home
+                    </Link>
                 </p>
                 <p>
-                    {/* <Link to="/services" className="links"> */}
-                    Products
-                    {/* </Link> */}
+                    <Link to="/product" className="footer-link">
+                      Products
+                    </Link>
                 </p>
                 <p>
-                    {/* <Link to="/contactus" className="links"> */}
-                    About Us
-                    {/* </Link> */}
+                    <Link to="/aboutus" className="footer-link">
+                      About Us
+                    </Link>
                 </p>
                 <p>
-                    {/* <Link to="/faq" className="links"> */}
-                    Contact Us
-                    {/* </Link> */}
+                    <Link to="/contactus" className="footer-link">
+                      Contact Us
+                    </Link>
                 </p>
                 </div>
               <div className="col-md-3 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
@@ -87,7 +87,7 @@ const Footer = () => {
         </section>
       </footer>
       <div className="text-center p-3 stylefour">
-        © 2020 Copyright: vocalbuddy.com
+        © 2023 Copyright: vocalbuddy.com
       </div>
     </div>
   );

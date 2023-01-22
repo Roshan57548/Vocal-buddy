@@ -17,7 +17,7 @@ const Slider = () => {
           />
           <Carousel.Caption>
             
-              <h3 className="service-2">Good Health</h3>
+              <h3 className="service-2">Home Like Nature</h3>
               <p className="service-3">Adopt the pace of nature</p>
                 
           </Carousel.Caption>

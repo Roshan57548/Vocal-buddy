@@ -8,7 +8,7 @@
     height: 2px
 }
 .stylefour{
-    background-color: #ECEFF1
+    background-color: #ECEFF1;
 }
 .complete{
     background-color: #ffff; 
@@ -18,4 +18,14 @@
     width: 30px;
     height: 30px;
     margin-right: 10px;
+}
+.footer-link{
+    text-decoration: none;
+    font-size: large;
+    font-weight: medium;
+    color: black;
+}
+.footer-link:hover{
+    color: rgb(203, 125, 0);
+    animation-delay: 0.5s;
 }

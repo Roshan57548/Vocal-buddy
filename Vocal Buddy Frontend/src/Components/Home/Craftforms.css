@@ -1,0 +1,79 @@
+.CraftForms-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ECEFF1;
+    color: rgb(203, 125, 0);
+    width: 100%;
+    height: 250px;
+}
+.CraftForms-contents{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 250px;
+}
+.CraftForms-h3{
+    color: rgb(92, 86, 86);
+}
+.CraftForms{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 250px;
+}
+.CraftForms-icons{
+    margin-right: 5px;
+}
+.CraftForms-paragraph{
+    font-size: 70px;
+    margin: 5px;
+}
+.CraftForms-p{
+    font-size: 30px;
+    color: rgb(92, 86, 86);
+}
+
+@media only screen and (max-width: 900px) {
+    .CraftFormslinks-1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: #ECEFF1;
+        width: 100%;
+        height: 100%;
+    }
+    .CraftForms-contents{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+        margin-top: 50px;
+        margin-bottom: 20px;
+    }
+    .CraftForms{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+        margin-top: 20px;
+        margin-bottom: 50px;
+    }
+    .CraftForms-paragraph{
+        font-size: 40px;
+        margin: 5px;
+    }
+    .CraftForms-p{
+        font-size: 20px;
+        color: rgb(92, 86, 86);
+    }
+    
+}

@@ -10,14 +10,21 @@ body
     text-decoration: none;
     font-size: large;
     font-weight: medium;
+    color: black;
 }
 .links:hover{
-    text-decoration: overline 2px;
+    color: black;
 }
 .link{
     text-decoration: none;
     font-size: large;
-    font-weight: bold;
+    font-weight: medium;
+    color: black;
+}
+.link:hover{
+    color: rgb(203, 125, 0);
+    animation-delay: 0.5s;
+    text-decoration: overline 2px;
 }
 .icon{
     width: 30px;

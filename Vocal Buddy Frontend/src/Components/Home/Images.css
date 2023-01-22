@@ -1,0 +1,282 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    scroll-behavior: smooth;
+  }
+  
+  .container .section-1 {
+    height: 100%;
+    width: 100%;
+  }
+  .container .section-1 .left-images {
+    width: 25%;
+    height: 70vh;
+    float: left;
+  }
+  .container .section-1 .left-images img {
+    width: 100%;
+    height: 35vh;
+    padding-right: 10px;
+    float: left;
+  }
+  .container .section-1 .left-images .pad {
+    padding-bottom: 5px;
+  }
+  .container .section-1 .left-images .pad1 {
+    padding-top: 5px;
+  }
+  .container .section-1 .mid-image {
+    width: 50%;
+    height: 70vh;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+  .container .section-1 .mid-image .mid-box {
+    background-color: rgba(0, 0, 0, 0.192);
+    width: 80%;
+    text-align: center;
+    color: white;
+    padding: 40px;
+  }
+  .container .section-1 .mid-image .mid-box h1 {
+    font-family: sans-serif;
+    font-size: 25px;
+    margin: 15px;
+  }
+  .container .section-1 .mid-image .mid-box p {
+    font-family: sans-serif;
+    font-size: 15px;
+    margin: 15px;
+    color: #ffffff;
+    line-height: 1.5;
+  }
+  .container .section-1 .mid-image .mid-box a {
+    font-family: sans-serif;
+    font-size: 12px;
+    margin: 2px;
+    color: white;
+    letter-spacing: 2px;
+    font-weight: bold;
+  }
+  .container .section-1 .mid-image .mid-box a:hover {
+    font-size: 13px;
+    transition: 0.125;
+  }
+  .container .section-1 .mid-image .arrow {
+    position: absolute;
+    right: 20px;
+    bottom: 15px;
+    font-size: 24px;
+    font-weight: 800;
+    color: white;
+  }
+  .container .section-1 .mid-image .arrow a {
+    color: white;
+    font-weight: 800;
+  }
+  .container .section-1 .right-images {
+    width: 25%;
+    height: 70vh;
+    float: left;
+  }
+  .container .section-1 .right-images img {
+    width: 100%;
+    height: 35vh;
+    padding-left: 10px;
+    float: right;
+  }
+  .container .section-1 .right-images .pad {
+    padding-bottom: 5px;
+  }
+  .container .section-1 .right-images .pad1 {
+    padding-top: 5px;
+  }
+  
+  
+  
+  @media screen and (min-width: 1600px) {
+    html {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    html body {
+      width: 1870px;
+    }
+    html body .fixed-arrow {
+      position: fixed;
+      right: 480px;
+      bottom: 40px;
+    }
+    html body .section-2 .recent-article .card .card-image img {
+      width: 100%;
+      height: 400px;
+    }
+    html body .container .section-1 {
+      height: 100%;
+    }
+    html body .container .section-1 .left-images {
+      height: 50vh;
+    }
+    html body .container .section-1 .left-images img {
+      height: 25vh;
+    }
+    html body .container .section-1 .mid-image {
+      height: 50vh;
+    }
+    html body .container .section-1 .right-images {
+      height: 50vh;
+    }
+    html body .container .section-1 .right-images img {
+      height: 25vh;
+    }
+    html body footer .footer-black {
+      background-color: #252424;
+      width: 100%;
+      height: 70px;
+      display: flex;
+    }
+  }
+  @media (max-width: 1200px) {
+  
+    .container .section-1 .left-images {
+      height: 40vh;
+    }
+    .container .section-1 .left-images img {
+      height: 20vh;
+    }
+    .container .section-1 .mid-image {
+      height: 40vh;
+    }
+    .container .section-1 .right-images {
+      height: 40vh;
+    }
+    .container .section-1 .right-images img {
+      height: 20vh;
+    }
+  
+  }
+  @media (max-width: 950px) {
+  
+    .container .section-1 {
+      height: 100%;
+      width: 100%;
+    }
+    .container .section-1 .left-images {
+      width: 100%;
+      height: 35vh;
+    }
+    .container .section-1 .left-images img {
+      width: 50%;
+      height: 35vh;
+      padding-right: 0px;
+      padding-bottom: 10px;
+    }
+    .container .section-1 .left-images .pad {
+      padding-bottom: 10px;
+      padding-right: 5px;
+    }
+    .container .section-1 .left-images .pad1 {
+      padding-top: 0px;
+      padding-left: 5px;
+    }
+    .container .section-1 .mid-image {
+      width: 100%;
+      height: 50vh;
+    }
+    .container .section-1 .mid-image .mid-box {
+      width: 100%;
+    }
+    .container .section-1 .right-images {
+      width: 100%;
+      height: 35vh;
+    }
+    .container .section-1 .right-images img {
+      width: 50%;
+      height: 35vh;
+      padding-left: 0px;
+      padding-top: 10px;
+    }
+    .container .section-1 .right-images .pad {
+      padding-bottom: 0px;
+      padding-left: 5px;
+    }
+    .container .section-1 .right-images .pad1 {
+      padding-top: 10px;
+      padding-right: 5px;
+    }
+  }
+  @media (max-width: 600px) {
+  
+    .container .section-1 {
+      height: 100%;
+      width: 100%;
+    }
+    .container .section-1 .left-images {
+      width: 100%;
+      height: 60vh;
+    }
+    .container .section-1 .left-images img {
+      width: 100%;
+      height: 30vh;
+      padding-right: 0px;
+      padding-bottom: 10px;
+    }
+    .container .section-1 .left-images .pad {
+      padding-bottom: 10px;
+      padding-right: 0px;
+    }
+    .container .section-1 .left-images .pad1 {
+      padding-top: 0px;
+      padding-left: 0px;
+    }
+    .container .section-1 .mid-image {
+      width: 100%;
+      height: 50vh;
+    }
+    .container .section-1 .mid-image .mid-box {
+      width: 100%;
+      padding: 25px;
+    }
+    .container .section-1 .mid-image .mid-box h1 {
+      font-size: 15px;
+      margin: 8px;
+    }
+    .container .section-1 .mid-image .mid-box p {
+      font-size: 8px;
+      margin: 8px;
+      line-height: 1.5;
+    }
+    .container .section-1 .mid-image .mid-box a {
+      font-size: 10px;
+      letter-spacing: 1px;
+    }
+    .container .section-1 .mid-image .mid-box a:hover {
+      font-size: 11px;
+      transition: 0.125;
+    }
+    .container .section-1 .right-images {
+      width: 100%;
+      height: 60vh;
+    }
+    .container .section-1 .right-images img {
+      width: 100%;
+      height: 30vh;
+      padding-left: 0px;
+      padding-top: 10px;
+    }
+    .container .section-1 .right-images .pad {
+      padding-bottom: 0px;
+      padding-left: 0px;
+    }
+    .container .section-1 .right-images .pad1 {
+      padding-top: 10px;
+      padding-right: 0px;
+    }
+  }/*# sourceMappingURL=main.css.map */
