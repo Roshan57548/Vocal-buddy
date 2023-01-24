@@ -1,0 +1,46 @@
+.About-1{
+    background-image: url('./third.jpg');
+    width: 100%;
+    height: 300px;
+}
+.About-2{
+    background-color: rgba(0, 0, 0, 0.578);
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.About-3{
+    color: rgba(255, 255, 255, 0.954);
+    font-size: 60px;
+    font-weight: 400;
+}
+.About-4{
+    color: white;
+}
+.About-5{
+    color: #00d5ff;
+    text-decoration: none;
+}
+.About-5:hover{
+    color: white;
+}
+@media only screen and (max-width: 600px) {
+    .About-3{
+        color: rgba(255, 255, 255, 0.954);
+        font-size: 40px;
+        font-weight: 400;
+    }
+    .About-4{
+        color: white;
+    }
+    .About-5{
+        color: #00d5ff;
+        text-decoration: none;
+    }
+    .About-5:hover{
+        color: white;
+    }  
+  }

@@ -1,7 +1,28 @@
-.content-center-2{
-    background-color: #ECEFF1;
-    
-}
 .content-heading{
     color: rgb(203, 125, 0);
 }
+.margin{
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+.sizeimage{
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+}
+.content-center{
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content-center-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #ECEFF1;
+}
+

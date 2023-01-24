@@ -1,0 +1,24 @@
+.storyvocal{
+    background-color: #f7f7f7;
+}
+.content-center-2{
+    width: 100%;
+    background-color: #ECEFF1;
+    
+}
+.content-heading{
+    color: rgb(108, 69, 7);
+}
+.content-center-story{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    background-color: #f7f7f7;
+}
+.sizeimages{
+    align-items: center;
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+}
