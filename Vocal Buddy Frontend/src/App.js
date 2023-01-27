@@ -7,6 +7,7 @@ import Product from './Components/Products/Product';
 import AboutUs from './Components/About Us/AboutUs';
 import ContactUs from './Components/Contact Us/ContactUs';
 import Nopage from './Components/404/NoPage';
+import Cart from './Components/Products/Cart';
 const Routing = () => {
 
   return (
@@ -15,6 +16,7 @@ const Routing = () => {
         <Route path="product" element={<Product></Product>} />
         <Route path="aboutus" element={<AboutUs></AboutUs>} />
         <Route path="contactus" element={<ContactUs></ContactUs>}/>
+        <Route path="cart" element={<Cart></Cart>} />
         <Route path="*" element={<Nopage></Nopage>} />
     </Routes>
 

@@ -177,7 +177,7 @@ export default function ContactUs() {
         </div>
       </div>
       <div className="contact-8">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d28852.152947816765!2d82.97763527910153!3d25.320355800000016!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x398e2e17903ec539%3A0x3013673951c589a!2sMedwin%20Multi%20Speciality%20Hospital%20-%20the%20best%20Hospital%20in%20Varanasi!5e0!3m2!1sen!2sin!4v1659536823546!5m2!1sen!2sin" 
+        <iframe src="https://maps.google.com/maps?q=Shastri Nagar Ghaziabad&t=&z=10&ie=UTF8&iwloc=&output=embed" 
         className="contact-9" allowfullscreen="" loading="lazy" 
         referrerpolicy="no-referrer-when-downgrade"></iframe>
 

@@ -5,6 +5,7 @@ import Button from '@mui/material/Button';
 import FacebookIcon from '@mui/icons-material/Facebook';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import SubscriptionsIcon from '@mui/icons-material/Subscriptions';
+import { Link } from "react-router-dom";
 const SocialLinks = () => {
   return (
     <div className="sociallinks-1">
@@ -14,23 +15,23 @@ const SocialLinks = () => {
         </div>
         <div className="social-all-buttons">
             <div className="social-buttons">
-                <Button variant="contained"  size="large" >
-                    <FacebookIcon className="social-icons"/>
-                    Facebook
-                </Button>
+                <a href="http://Facebook.com/vocalbuddy" target="_blank">
+                    <Button variant="contained"  size="large" >
+                        <FacebookIcon className="social-icons"/>
+                        Facebook
+                    </Button>
+                </a>
             </div>
+            
             <div className="social-buttons">
-                <Button variant="contained" color="secondary" className="social-instagram"  size="large" >
-                    <InstagramIcon className="social-icons"/>
-                    Instagram
-                </Button>
+                <a href="http://Instagram.com/vocalbuddy" target="_blank">
+                    <Button variant="contained" color="secondary" className="social-instagram"  size="large" >
+                        <InstagramIcon className="social-icons"/>
+                        Instagram
+                    </Button>
+                </a>
             </div>
-            <div className="social-buttons">
-                <Button variant="contained"  color="error" size="large" >
-                    <SubscriptionsIcon className="social-icons"/>
-                    Youtube
-                </Button>
-            </div>
+            
         </div>
         
     </div>

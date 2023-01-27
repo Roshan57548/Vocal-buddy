@@ -10,7 +10,7 @@ const Footer = () => {
       <footer className="container text-center text-lg-start text-dark stylefirst">
         <section className="d-flex justify-content-between text-white stylesecond"></section>
 
-        <section className="">
+        <section >
           <div className="container text-center text-md-start mt-5">
             <div className="row mt-3">
               <div className="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
@@ -69,17 +69,13 @@ const Footer = () => {
                 <h6 className="text-uppercase fw-bold">Contact</h6>
                 <hr className="mb-4 mt-0 d-inline-block mx-auto stylethird" />
                 <p>
-                  <i className="fas fa-home mr-3"></i> New Delhi, NY 10012,
-                  Gaziyabad
+                  <i className="fas fa-home mr-3"></i> Shastri Nagar, Ghaziabad, Uttar Pradesh, India
                 </p>
                 <p>
-                  <i className="fas fa-envelope mr-3"></i> support@localbuddy.com
+                  <i className="fas fa-envelope mr-3"></i> Info@vocalbuddy.online
                 </p>
                 <p>
-                  <i className="fas fa-phone mr-3"></i> + 01 234 567 88
-                </p>
-                <p>
-                  <i className="fas fa-print mr-3"></i> + 01 234 567 89
+                  <i className="fas fa-phone mr-3"></i> +919971379750
                 </p>
               </div>
             </div>
@@ -87,7 +83,7 @@ const Footer = () => {
         </section>
       </footer>
       <div className="text-center p-3 stylefour">
-        © 2023 Copyright: vocalbuddy.com
+        © 2023 Copyright: Info@vocalbuddy.online
       </div>
     </div>
   );
